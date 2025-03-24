@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(62, 62, 152);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+header {
+  background-color: whitesmoke;
+  border: 2px solid black;
+  border-radius: 1rem;
+  padding: 1.5rem;
+  line-height: 2;
+  width: 400px; /* Reduce overall width */
+}
+
+.heading-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.number {
+  margin-bottom: 20px;
+}
+
+#number {
+  padding: 8px;
+  height: 30px;
+  width: 100%; /* Full width inside the header */
+}
+
+#content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0;
+  font-weight: bold;
+}
+
+.hugeContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px; /* Reduce gap for tighter layout */
+}
+
+.From, .To {
+  display: flex;
+  align-items: center;
+  gap: 8px; /* Reduce space between flag and dropdown */
+}
+
+img {
+  width: 35px; /* Slightly smaller flags */
+  height: 35px;
+  object-fit: cover;
+}
+
+#From, #To {
+  padding: 8px;
+  height: 35px;
+  width: 80px; /* Narrower dropdowns */
+  text-align: center;
+  font-family: Arial, sans-serif;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.vice-versa-arrow {
+  font-size: 25px; /* Slightly smaller arrow */
+  cursor: pointer;
+}
+
+#convertedRate {
+  padding: 8px;
+  height: 30px;
+  width: 100%; /* Full width */
+  margin-top: 20px;
+  line-height: 1.5;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+#resultant {
+  border-color: blue;
+  margin-top: 20px;
+  padding: 8px 15px;
+  background-color: #007bff;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: "Times New Roman", Georgia, serif;
+  text-align: center;
+  font-size: medium;
+  width: 100%; /* Full width */
+}

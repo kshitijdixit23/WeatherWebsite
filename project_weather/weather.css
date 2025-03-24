@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Sour Gummy", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  line-height: 3rem;
+}
+main {
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 40px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+#search {
+  padding: 5px;
+  border: none;
+  justify-content: center;
+  cursor: pointer;
+}
+#search:hover {
+  background-color: orange;
+  color: white;
+}
+body {
+  background-image: url("https://img.freepik.com/free-vector/flat-design-baby-shower-zoom-background_23-2149242844.jpg?t=st=1733653203~exp=1733656803~hmac=0dd520026a8e278de95d7c4b9638f7639a1ba70c633f6ec1e669028d02f1d080&w=1800");
+  background-size: contain;
+  background-position: repeat;
+  height: 100vh;
+}
+#location_input {
+  width: auto;
+  height: 25px;
+}
+.Weather {
+  font-size: larger;
+}

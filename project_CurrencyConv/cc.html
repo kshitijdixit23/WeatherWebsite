@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="cc.css" />
+  </head>
+  <body>
+    <main>
+      <header>
+        <div class="heading-container">
+          <h1>Currency Converter</h1>
+          <img
+            id="image"
+            src="https://media.istockphoto.com/id/481652108/photo/1-tickets-and-coins-isolated.jpg?s=612x612&w=0&k=20&c=kf7Ztk2TBEoHSV2mV2EETmp9RdU4npp6-GyhWreP0gk="
+            alt="Image"
+          />
+        </div>
+        <p id="amount"><b>Enter amount</b></p>
+        <!-- for empty border to enter amount. -->
+        <div class="number">
+          <input type="number" id="number" />
+        </div>
+        <div id="content">
+          <p><b>From</b></p>
+          <p><b>To</b></p>
+        </div>
+        <div class="hugeContainer">
+          <div class="From">
+            <img src="https://flagsapi.com/US/flat/64.png" alt="US Flag" />
+            <select name="country" id="From"></select>
+          </div>
+          <div class="vice-versa-arrow">&#x2194;</div>
+
+          <div class="To">
+            <img src="https://flagsapi.com/IN/flat/64.png" alt="IN Flag" />
+            <select name="country2" id="To"></select>
+          </div>
+        </div>
+        <label for="convertedRate">
+          <input type="text" id="convertedRate" name="convertedRate" />
+        </label>
+        <!-- <div id="resultant">Get Exchange Rate</div> -->
+        <button id="resultant">Get Exchange Rate</button>
+      </header>
+    </main>
+    <script src="cc2.js"></script>
+    <script src="cc.js"></script>
+  </body>
+</html>

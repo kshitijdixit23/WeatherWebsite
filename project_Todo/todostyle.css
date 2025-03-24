@@ -1,0 +1,64 @@
+body:hover{
+  background-color: rgb(192, 68, 68);
+}
+main {
+  background-color: coral;
+  border: 2px solid rgb(215, 167, 72);
+  height: 500px;
+  width: 580px;
+  margin: 100px 300px 50px 400px;
+}
+h1 {
+  color: rgb(184, 78, 24);
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+}
+h2 {
+  margin: 6px 13px 10px 11px;
+  padding: 14px 23px 22px 19px;
+  color: rgb(210, 106, 57);
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+}
+#esc {
+  margin: 50px 20px 50px 80px;
+  padding: 6px;
+}
+#add {
+  padding: 7px 4px 6px 10px;
+  margin: 9px 10px;
+  background-color: rgb(234, 121, 60);
+  color: black;
+}
+/* Ensure the task list container takes proper space */
+#list-container ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Task item styling */
+#list-container li {
+  background-color: #f9f9f9;
+  padding: 10px;
+  margin: 5px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 5px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+/* Delete button styling for each task */
+.delete-task {
+  background-color: #e57373;
+  color: rgba(255, 255, 255, 0.944);
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.delete-task:hover {
+  background-color: #f44336;
+}
